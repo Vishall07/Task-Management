@@ -1,0 +1,148 @@
+/* src/App.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #deebdb;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  color: #2e6a90;
+  margin-bottom: 1.5rem;
+}
+
+.task-form {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 2rem;
+}
+
+.task-form input,
+.task-form select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.task-form button {
+  padding: 0.5rem 1rem;
+  background-color: #2e6a90;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.task-form .cancel-btn {
+  background-color: #ccc;
+  margin-left: 0.5rem;
+}
+
+.task-form .form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.sort-controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  gap: 10px;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.task-table th,
+.task-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #2e6a90;
+  color: white;
+}
+
+.task-table td button {
+  margin-right: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #d9534f;
+  color: white;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.pagination button {
+  padding: 0.4rem 0.8rem;
+  margin: 0 0.2rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background-color: #2e6a90;
+  color: white;
+  font-weight: bold;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: black; /* Make table text black */
+}
+
+.task-table th,
+.task-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  background-color: white; /* White background for cells */
+}
+
+.task-table th {
+  background-color: #e0e0e0; /* Light gray for headers */
+  font-weight: bold;
+  color: black; /* Ensure header text is black */
+}
+
+.task-table tr:nth-child(even) {
+  background-color: #f9f9f9; /* Subtle zebra striping */
+}
