@@ -1,3 +1,4 @@
 # Task-Management
 
-![image](https://github.com/user-attachments/assets/301bd8cb-3e1e-4115-8255-d5549713ca19)
+![image](https://github.com/user-attachments/assets/f775c2b0-0a31-4ba2-9ce2-b5bb2baae536)
+
